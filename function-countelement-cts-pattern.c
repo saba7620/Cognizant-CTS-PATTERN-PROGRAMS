@@ -7,7 +7,7 @@ The function compiles fine but does not return desired results for some cases. Y
 You will have to edit and correct the code to make it work for all test cases.
 int countElement(int arr[],int len,int n)
 {
-    int i,count=0;
+    int i,count=-1;
     for(i=0; i<=len; i++)
     {
         if(arr[i]>(2*n))
